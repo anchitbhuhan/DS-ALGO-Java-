@@ -10,21 +10,21 @@
 
 <details>
 
-  <summary>Middle a Linked List</summary>
+  <summary>Middle of a Linked List <a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList/Middle%20of%20a%20Linked%20List"> [SOURCE]</a> </summary>
 
-  * <a>Simple Traversal - O(N), O(1)</a>
-  * <a>2 Pointers O(N), O(1)</a>
-  * <a>3rd Approach O(N), O(1)</a>
+  * <a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Middle%20of%20a%20Linked%20List/Simple%20Traversal/Middle.md">Simple Traversal - O(N), O(1)</a>
+  * <a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Middle%20of%20a%20Linked%20List/2%20Pointers/pointers.md">2 Pointers O(N), O(1)</a>
+  * <a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Middle%20of%20a%20Linked%20List/3rd%20Approach/method.md">3rd Approach O(N), O(1)</a>
 
 </details>
 
 <details>
-  <summary>Reverse a Linked List</summary>
+  <summary>Reverse a Linked List <a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList/Reverse%20a%20Linked%20List"> [SOURCE]</a></summary>
 
-  * <a>Iterative Method O(N) O(1)</a>
-  * <a>Recursive Method O(N) O(1)</a>
+  * <a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Reverse%20a%20Linked%20List/Iterative/iterative.md">Iterative Method O(N) O(1)</a>
+  * <a href="https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Reverse%20a%20Linked%20List/Recursive/recursive.md">Recursive Method O(N) O(1)</a>
   * <a>Tail Recursive Method</a>
-  * <a>Using Stack</a>
+  * <a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Reverse%20a%20Linked%20List/Using%20Stack/stack.md">Using Stack</a>
   * <a>Using Array</a>
   
 
@@ -72,7 +72,7 @@
 <details>
   <summary>Merge 2 Linked List in a Sorted order</summary>
 
-  * <a>Without Creating New Node</a>
+  * <a href="https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Merge%202%20Linked%20List/merge%20in%20a%20sorted%20order.md">Without Creating New Node</a>
 
 </details
 
