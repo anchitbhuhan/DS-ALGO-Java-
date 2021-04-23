@@ -11,8 +11,10 @@ class Main{
         ll.insert(new Node(4));
         ll.insert(new Node(5));
         ll.insert(new Node(6));
-        // ll.traverse();
-        System.out.println(ll.middle().val); 
+        ll.traverse();
+        ll.reverse(head);
+        ll.traverse();
+
 
     }
 }
@@ -80,7 +82,20 @@ class LinkedList
         }
     }
 
-
-
+    public void reverse(Node node)
+    {
+        if(node.next==null)
+        {
+            head = node;
+            return;
+        }
+        else
+        {
+                reverse(node.next);
+                Node q = node.next;
+                q.next = node;
+                node.next = null;
+        }
+    }
 
 }
