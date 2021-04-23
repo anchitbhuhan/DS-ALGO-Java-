@@ -10,7 +10,8 @@ class Main{
         ll.insert(new Node(3));
         ll.insert(new Node(4));
         ll.insert(new Node(5));
-        ll.traverse();
+        // ll.traverse();
+        System.out.println(ll.middle().val); 
 
     }
 }
