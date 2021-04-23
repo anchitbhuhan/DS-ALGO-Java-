@@ -5,7 +5,7 @@
 ## Data Structures
 
 <details>
-  <summary>Linked List<a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList">Source</a></summary>
+  <summary>Linked List<a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList">[Source]</a></summary>
 
 <details>
 
