@@ -13,9 +13,7 @@
 
   * <a>Simple Traversal</a>
   * <a>2 Pointers</a>
-  * <a>Tail Recursive Method</a>
-  * <a>Using Stack</a>
-  * <a>Using Array</a>
+  * <a>3rd Approach</a>
 
 </details>
 
@@ -24,7 +22,10 @@
 
   * <a>Iterative Method</a>
   * <a>Recursive Method</a>
-  * <a>3rd Approach</a>
+  * <a>Tail Recursive Method</a>
+  * <a>Using Stack</a>
+  * <a>Using Array</a>
+  
 
 </details>
 

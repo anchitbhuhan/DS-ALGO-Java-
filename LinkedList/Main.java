@@ -10,6 +10,7 @@ class Main{
         ll.insert(new Node(3));
         ll.insert(new Node(4));
         ll.insert(new Node(5));
+        ll.insert(new Node(6));
         // ll.traverse();
         System.out.println(ll.middle().val); 
 
@@ -78,6 +79,8 @@ class LinkedList
             temp.next = node; 
         }
     }
+
+
 
 
 }
