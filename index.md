@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+# **Data Structures & Algorithms**
 
-You can use the [editor on GitHub](https://github.com/anchitbhuhan/DS-ALGO-Java-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Data Structures
 
-### Markdown
+<details>
+  <summary>Linked List<a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList"> [Source]</a></summary>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<details>
 
-```markdown
-Syntax highlighted code block
+  <summary>Middle a Linked List</summary>
 
-# Header 1
-## Header 2
-### Header 3
+  * <a>Simple Traversal</a>
+  * <a>2 Pointers</a>
+  * <a>Tail Recursive Method</a>
+  * <a>Using Stack</a>
+  * <a>Using Array</a>
 
-- Bulleted
-- List
+</details>
 
-1. Numbered
-2. List
+<details>
+  <summary>Reverse a Linked List</summary>
 
-**Bold** and _Italic_ and `Code` text
+  * <a>Iterative Method</a>
+  * <a>Recursive Method</a>
+  * <a>3rd Approach</a>
 
-[Link](url) and ![Image](src)
-```
+</details>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<details>
+  <summary>Palindrome</summary>
 
-### Jekyll Themes
+  * <a>Using Stack</a>
+  * <a>By Finding the Middle and reversing</a>
+  * <a>Recursion</a>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anchitbhuhan/DS-ALGO-Java-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</details>
 
-### Support or Contact
+<details>
+  <summary>Identical Linked List</summary>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  * <a>Iterative</a>
+  * <a>Recursive Approach</a>
+
+</details>
+
+<details>
+  <summary>Remove Duplicates</summary>
+
+<details>
+  <summary>Remove Duplicates from Unsorted LL</summary>
+
+  * <a>Using 2 Loops    </a>
+  * <a>Use Sorting</a>
+
+</details
+
+<details>
+  <summary>Remove Duplicates from Sorted LL</summary>
+
+  * <a>Iterative</a>
+  * <a>Recursive Approach</a>
+  * <a>3rd Approach</a>
+
+</details
+
+</details>
+
+</details>
