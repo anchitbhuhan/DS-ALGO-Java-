@@ -5,9 +5,10 @@
 ## Data Structures
 
 <details>
-  <summary>Linked List</summary>
+  <summary><a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList">Linked List</a></summary>
 
 <details>
+
   <summary>Reverse a Linked List</summary>
 
   * <a>Simple Traversal</a>
