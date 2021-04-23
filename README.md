@@ -5,23 +5,24 @@
 ## Data Structures
 
 <details>
-  <summary>Linked List<a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList"> [Source]</a></summary>
+  <summary>Linked List<a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList"> [Source]</a>
+  </summary>
 
 <details>
 
   <summary>Middle a Linked List</summary>
 
-  * <a>Simple Traversal</a>
-  * <a>2 Pointers</a>
-  * <a>3rd Approach</a>
+  * <a>Simple Traversal - O(N), O(1)</a>
+  * <a>2 Pointers O(N), O(1)</a>
+  * <a>3rd Approach O(N), O(1)</a>
 
 </details>
 
 <details>
   <summary>Reverse a Linked List</summary>
 
-  * <a>Iterative Method</a>
-  * <a>Recursive Method</a>
+  * <a>Iterative Method O(N) O(1)</a>
+  * <a>Recursive Method O(N) O(1)</a>
   * <a>Tail Recursive Method</a>
   * <a>Using Stack</a>
   * <a>Using Array</a>
@@ -67,5 +68,12 @@
 </details
 
 </details>
+
+<details>
+  <summary>Merge 2 Linked List in a Sorted order</summary>
+
+  * <a>Without Creating New Node</a>
+
+</details
 
 </details>
