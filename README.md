@@ -5,11 +5,11 @@
 ## Data Structures
 
 <details>
-  <summary>Linked List<a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList">[Source]</a></summary>
+  <summary>Linked List<a href = "https://github.com/anchitbhuhan/DS-ALGO-Java-/tree/main/LinkedList"> [Source]</a></summary>
 
 <details>
 
-  <summary>Reverse a Linked List</summary>
+  <summary>Middle a Linked List</summary>
 
   * <a>Simple Traversal</a>
   * <a>2 Pointers</a>
@@ -20,7 +20,7 @@
 </details>
 
 <details>
-  <summary>Middle of a Linked List</summary>
+  <summary>Reverse a Linked List</summary>
 
   * <a>Iterative Method</a>
   * <a>Recursive Method</a>
