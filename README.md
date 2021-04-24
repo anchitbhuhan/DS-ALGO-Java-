@@ -76,4 +76,15 @@
 
 </details
 
+<details>
+  <summary>Remove nth Node from end</summary>
+
+  * <a href="https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Merge%202%20Linked%20List/merge%20in%20a%20sorted%20order.md">Simple Appraoch</a>
+
+  * <a href="https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Merge%202%20Linked%20List/merge%20in%20a%20sorted%20order.md">2 Pointers Appraoch</a>
+
+
+</details
+
+
 </details>

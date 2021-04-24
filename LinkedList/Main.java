@@ -12,7 +12,7 @@ class Main{
         ll.insert(new Node(5));
         ll.insert(new Node(6));
         ll.traverse();
-        ll.reverse();
+        ll.removenNthNode(6);
         ll.traverse();
 
 
@@ -86,6 +86,53 @@ class LinkedList
             temp.next = node; 
         }
     }
+
+    public void removenNthNode(int n)
+    {
+
+        // Node dummy = new Node(0);
+        // dummy.next = head;
+        // Node fast = dummy;
+        // Node slow = dummy;
+        // while(fast != null && n + 1 > 0) {
+        //     fast = fast.next;
+        //     n--;
+        // }
+        // while(fast != null) {
+        //     fast = fast.next;
+        //     slow = slow.next;
+        // }
+        // slow.next = slow.next.next;
+        // head = dummy.next;
+
+
+        int size= 0;
+        Node temp = head;
+        while(temp != null)
+        {
+            size++;
+            temp = temp.next;
+        }
+        temp = head;
+        
+        if(size==1 && n==1)
+            head = null;
+        
+        if(n>=size)
+            head = head.next;
+        else
+        {
+            int count = (size-n)-1;
+            int inc = 0;
+            while(inc != count && temp!= null)
+            {
+                inc++;
+                temp = temp.next;
+            }
+            temp.next = temp.next.next; 
+        }
+    }
+
 
 
 }
