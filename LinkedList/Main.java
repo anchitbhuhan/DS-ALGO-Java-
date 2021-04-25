@@ -9,15 +9,17 @@ class Main{
         ll.insert(new Node(1));
         ll.insert(new Node(1));
         ll.insert(new Node(1));
+        ll.insert(new Node(3));
+        ll.insert(new Node(4));
         ll.insert(new Node(1));
-        ll.insert(new Node(1));
-        ll.insert(new Node(1));
-        ll.insert(new Node(1));
+        ll.insert(new Node(10));
         ll.insert(new Node(2));
         ll.insert(new Node(3));
-        ll.insert(new Node(3));
+        ll.insert(new Node(4));
+        ll.insert(new Node(4));
+        ll.insert(new Node(4));
         ll.traverse();
-        ll.removeAllDuplicates();
+        ll.removeDuplicates();
         ll.traverse();
 
 
@@ -38,6 +40,19 @@ class Node
     public String toString()
     {
         return val+"";
+    }
+
+    public int hashCode()
+    {
+        return val;
+    }
+
+    public boolean equals(Object o)
+    {
+        Node obj = (Node)o;
+        if(obj.val == this.val)
+            return true;
+        return false;
     }
 }
 
@@ -93,26 +108,29 @@ class LinkedList
     }
 
 
-    public void removeAllDuplicates()
+    public void removeDuplicates()
     {
         Node dummy = new Node(0);
         dummy.next = head;
-        Node prev = dummy;
-        Node curr = head;
+        Node temp = dummy;
+        
 
-        while(curr != null)
+        while(temp != null)
         {
-            while(curr.next != null && prev.next.val == curr.next.val )
-                curr = curr.next;
+            Node temp2 = temp;
 
-            if(prev.next==curr)
-                prev = prev.next;
-            else
-                prev.next = curr.next;
-            curr = curr.next;
+            while(temp2.next != null)
+            {
+
+                if(temp.val == temp2.next.val)
+                    temp2.next = temp2.next.next;
+                else
+                    temp2 = temp2.next;
+
+            }
+            temp = temp.next;
         }
 
-        head = dummy.next;
 
     }
 

@@ -76,6 +76,17 @@
 </details
 
 </details>
+<details>
+  <summary>Sort a Linked List</summary>
+
+  * <a>1st Approach</a>
+  * <a>Recursive Approach</a>
+
+</details
+
+</details>
+
+
 
 <details>
   <summary>Merge 2 Linked List in a Sorted order</summary>
