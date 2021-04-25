@@ -67,6 +67,14 @@
 
 </details
 
+<details>
+  <summary>Remove All Duplicates from Sorted LL</summary>
+
+  * <a>1st Approach</a>
+  * <a>Recursive Approach</a>
+
+</details
+
 </details>
 
 <details>
@@ -81,8 +89,8 @@
 
   * <a href="https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Delete%20Nth%20node%20from%20end/Simple%20Approach/simple.md">Simple Appraoch</a>
 
-  * <a href="https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Delete%20Nth%20node%20from%20end/2%20Pointers%20approach/pointers.md">2 Pointers Appraoch</a>
-
+  * <a href="https://github.com/anchitbhuhan/DS-ALGO-Java-/blob/main/LinkedList/Delete%20Nth%20node%20from%20end/2%20Pointers%20approach/pointers.md">2 Pointers Appraoch
+  </a>
 
 </details
 

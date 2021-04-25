@@ -6,13 +6,18 @@ class Main{
         Node head = new Node(1);
         LinkedList ll = new LinkedList(head);
 
+        ll.insert(new Node(1));
+        ll.insert(new Node(1));
+        ll.insert(new Node(1));
+        ll.insert(new Node(1));
+        ll.insert(new Node(1));
+        ll.insert(new Node(1));
+        ll.insert(new Node(1));
         ll.insert(new Node(2));
         ll.insert(new Node(3));
-        ll.insert(new Node(4));
-        ll.insert(new Node(5));
-        ll.insert(new Node(6));
+        ll.insert(new Node(3));
         ll.traverse();
-        ll.removenNthNode(6);
+        ll.removeAllDuplicates();
         ll.traverse();
 
 
@@ -85,6 +90,30 @@ class LinkedList
             }
             temp.next = node; 
         }
+    }
+
+
+    public void removeAllDuplicates()
+    {
+        Node dummy = new Node(0);
+        dummy.next = head;
+        Node prev = dummy;
+        Node curr = head;
+
+        while(curr != null)
+        {
+            while(curr.next != null && prev.next.val == curr.next.val )
+                curr = curr.next;
+
+            if(prev.next==curr)
+                prev = prev.next;
+            else
+                prev.next = curr.next;
+            curr = curr.next;
+        }
+
+        head = dummy.next;
+
     }
 
 
