@@ -7,7 +7,12 @@ class Main
         int k = 4;
         //Using Brute Force
         System.out.println(maxSum(A,k));
+
+        //Sliding Window
         System.out.println(maxSumSW(A,k));
+        
+        //Sliding Window 2nd Approach
+        System.out.println(maxSumSW2(A,k));
 
         
     }
@@ -16,7 +21,7 @@ class Main
     public static int  maxSum(int[] A, int k)
     {
         int n = A.length;
-        int MAX = Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;
 
         for (int i = 0; i <= n-k; i++) { //(n-2) times
 
@@ -25,9 +30,9 @@ class Main
 
                 sum += A[j];
             }
-            MAX = Math.max(MAX, sum);
+            max = Math.max(max, sum);
         }
-        return MAX;
+        return max;
     }
 
 
@@ -35,7 +40,7 @@ class Main
     public static int  maxSumSW(int[] A, int k)
     {
         int n = A.length;
-        int MAX = Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;
         int sum = 0;
         int i = 0;
         int j = 0;
@@ -46,7 +51,7 @@ class Main
 
             if( (j-i+1) == k)
             {
-                MAX = Math.max(MAX, sum);
+                max = Math.max(max, sum);
                 sum -= A[i];
                 i++;
                 j++;
@@ -55,6 +60,29 @@ class Main
                 j++;
         }
         
-        return MAX;
+        return max;
+    }
+
+
+    // O(n)
+    public static int  maxSumSW2(int[] A, int k)
+    {
+        int n = A.length;
+        int max = Integer.MIN_VALUE;
+        int sum = 0;
+
+        for (int i = 0; i < k; i++) { // k times
+            
+            sum += A[i];
+        }
+
+        max = sum;
+
+        for (int j = k; j < n; j++) { // n-k times
+            
+            sum = sum  + A[j] - A[j-k];
+            max = Math.max(max, sum);
+        }
+        return max;
     }
 }
