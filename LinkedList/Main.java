@@ -6,21 +6,16 @@ class Main{
         Node head = new Node(1);
         LinkedList ll = new LinkedList(head);
 
-        ll.insert(new Node(1));
-        ll.insert(new Node(1));
-        ll.insert(new Node(1));
-        ll.insert(new Node(3));
-        ll.insert(new Node(4));
-        ll.insert(new Node(1));
-        ll.insert(new Node(10));
         ll.insert(new Node(2));
         ll.insert(new Node(3));
         ll.insert(new Node(4));
-        ll.insert(new Node(4));
-        ll.insert(new Node(4));
-        ll.traverse();
-        ll.removeDuplicates();
-        ll.traverse();
+        ll.insert(new Node(5));
+        ll.insert(new Node(6));
+        ll.insert(new Node(7));
+        ll.recursiveDisplay(head);
+        System.out.println();
+        // System.out.println(ll.sum(head));
+        System.out.println(ll.search(head, 7));
 
 
     }
@@ -90,6 +85,27 @@ class LinkedList
     }
 
 
+    public void traverseRecursive()
+    {
+        Node curr = head;
+        if(head != null)
+            recursiveDisplay(curr);
+        else
+            System.out.println("Linked List is Empty");
+        System.out.println();
+        
+    }
+
+    public void recursiveDisplay(Node curr)
+    {   
+        if(curr != null)
+        {
+            System.out.print(curr.val+" ");
+            recursiveDisplay(curr.next);
+        }
+    }
+
+
     public void insert(Node node)
     {
         if(head==null)
@@ -105,6 +121,42 @@ class LinkedList
             }
             temp.next = node; 
         }
+    }
+
+    public int size(Node curr)
+    {
+        if(curr == null)
+            return 0;
+        else
+            return size(curr.next) + 1;
+    }
+
+    public Node maximum(Node curr)
+    {
+        if(curr.next == null)
+            return curr;
+        else
+            return (maximum(curr.next).val > curr.val) ? maximum(curr.next) : curr; 
+
+    }
+
+    public Node search(Node curr, int key)
+    {
+        if(curr==null)
+            return null;
+        if(curr.val == key)
+            return curr;
+        return search(curr.next, key);
+
+
+    }
+
+    public int sum(Node curr)
+    {
+        if(curr == null)
+            return 0;
+        else
+            return sum(curr.next) + curr.val;
     }
 
 
