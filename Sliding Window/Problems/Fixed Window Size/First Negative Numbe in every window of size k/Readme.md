@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/first-negative-integer-every-window-size-k/
