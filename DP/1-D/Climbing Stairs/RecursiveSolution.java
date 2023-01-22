@@ -1,3 +1,5 @@
+package com.anchit.climbingStairs;
+
 //https://leetcode.com/problems/climbing-stairs/
 public class RecursiveSolution {
 
@@ -5,8 +7,8 @@ public class RecursiveSolution {
 	
     /*
     Recursion, Top Down Approach
-    Time Complexity - 
-    Space Complexity - 
+    Time Complexity - O(2^N)
+    Space Complexity - O(N)
     */
     public static int climbStairs(int n) {
         
